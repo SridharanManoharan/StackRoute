@@ -1,0 +1,149 @@
+/*Top menu alignment*/
+.TopMenu li{
+    font-family: sans-serif;
+    display: inline;
+    margin-left: 60px;
+    text-decoration: none;
+}
+/*Division alignment of Main Navigation*/
+.DivNav{
+  border: 2px solid #73AD21;
+  width: inherit;
+  height: 48px;
+}
+/*Main Navigation*/
+.MainNav{
+  padding-left: 380px;
+  color: black;
+}
+.MainNav ul a{
+  text-decoration: none;
+}
+/*Title logo*/
+h1{
+  background: url("../images/MainLogo.png") no-repeat;
+  text-indent: -9999px;
+  width: 267px;
+  height: 68px;
+}
+/*Main searchbar Alignment*/
+#SearchAlign{
+  margin-left: 90px;
+  margin-top: 26px;
+  margin-right: 0px;
+}
+/*Login Icon Alignment*/
+#LoginIcon{
+  margin-left: 180px;
+  margin-top: 26px;
+}
+/*Login Icon Alignment*/
+#RegisterIcon{
+  margin-left: 180px;
+  margin-top: 26px;
+}
+/*Login Icon Alignment*/
+#CartIcon{
+  margin-left: 180px;
+  margin-top: 26px;
+}
+/*Three Coloumn grid*/
+
+/*Fixed*/
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
+/*Hero Unit*/
+#HeroUnit{
+  width:inherit;
+  background-color: #f2f3f6;
+  padding-top: 50px;
+}
+#HeroUnit img{
+  max-width:100%;
+  max-height:100%;
+  margin:auto;
+  display:block;
+}
+#HeroCover{
+  background-color: #f2f3f6;
+  width: inherit;
+  height: 1000px;
+}
+/*Three Coloumn grid 1*/
+/*Three Coloumn grid 2*/
+.ThreeColGrid1{
+  height: 450px;
+}
+.ThreeColGrid1 span{
+  color: grey;
+}
+.ThreeColGrid2{
+  height: 450px;
+}
+.ThreeColGrid2 span{
+  color: grey;
+}
+/*Three Coloumn grid 3*/
+.ThreeColGrid3{
+  height: 450px;
+}
+.ThreeColGrid3 span{
+  color: grey;
+}
+/*Two col grid*/
+.TwoColGrid{
+  height: 700px;
+}
+.TwoColGrid span{
+  color: grey;
+}
+/*Final Footer segment 1*/
+.FinalFooter1{
+  padding-top: 30px;
+  font-family: sans-serif;
+  height: 100px;
+  font-size: 35px;
+  color: white;
+  text-indent: inherit;
+  text-align: center;
+  background-color: #183740;
+}
+/*Final Footer segment 2*/
+.FinalFooter2{
+  height: 450px;
+  background-color: #37373a;
+  color: #5e6061;
+}
+/*Final Footer segment 3*/
+.FinalFooter3{
+  font-family: sans-serif;
+  height: 120px;
+  background-color: #17171a;
+  color: #5e6061;
+}
+/*Float Right*/
+.FloatRight{
+  float: right;
+}
+/*Align centre*/
+.AlignCentre{
+  padding-top: 30px;
+  text-align: center;
+  text-indent: 10px;
+  text-decoration: none;
+  color: #5e6061;
+}
+.AlignCentre li{
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  padding-left: 20px;
+  text-decoration: none;
+  color: #5e6061;
+}
+.AlignCentre h2{
+  text-align: center;
+}
