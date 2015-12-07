@@ -1,9 +1,10 @@
-/*Top menu alignment*/
-.TopMenu li{
-    font-family: sans-serif;
-    display: inline;
-    margin-left: 60px;
-    text-decoration: none;
+/*Include 30px on the top*/
+.toppad30{
+  padding-top: 30px;
+}
+/*Include 30px on the bottom*/
+.bottomPad30{
+  padding-bottom: 30px;
 }
 /*Division alignment of Main Navigation*/
 .DivNav{
@@ -13,18 +14,17 @@
 }
 /*Main Navigation*/
 .MainNav{
-  padding-left: 380px;
   color: black;
 }
 .MainNav ul a{
   text-decoration: none;
 }
 /*Title logo*/
-h1{
+.Header h1{
   background: url("../images/MainLogo.png") no-repeat;
   text-indent: -9999px;
-  width: 267px;
-  height: 68px;
+  width: 100%;
+  height: 68px;;
 }
 /*Main searchbar Alignment*/
 #SearchAlign{
@@ -54,57 +54,60 @@ h1{
   position: fixed;
   top: 0;
 }
-
-/*Hero Unit*/
+/*Herounit allignment*/
 #HeroUnit{
-  width:inherit;
-  background-color: #f2f3f6;
-  padding-top: 50px;
+  margin: auto;
+  width: 960px;
+  height: inherit;
 }
+/*Hero Unit allignment for img*/
 #HeroUnit img{
-  max-width:100%;
-  max-height:100%;
-  margin:auto;
-  display:block;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
 }
-#HeroCover{
+.Cover{
   background-color: #f2f3f6;
   width: inherit;
-  height: 1000px;
+  height:inherit;
 }
 /*Three Coloumn grid 1*/
-/*Three Coloumn grid 2*/
 .ThreeColGrid1{
-  height: 450px;
+  height: 400px;
 }
+/*Three col grid text color for span tag*/
 .ThreeColGrid1 span{
   color: grey;
 }
+/*Three Coloumn grid 2*/
 .ThreeColGrid2{
-  height: 450px;
+  height: 400px;
 }
+/*Three col grid text color for span tag*/
 .ThreeColGrid2 span{
   color: grey;
 }
 /*Three Coloumn grid 3*/
 .ThreeColGrid3{
-  height: 450px;
+  height: 400px;
 }
+/*Three col grid text color for span tag*/
 .ThreeColGrid3 span{
   color: grey;
 }
 /*Two col grid*/
 .TwoColGrid{
-  height: 700px;
+  height: 350px;
 }
+/*Two col grid text color for span tag*/
 .TwoColGrid span{
   color: grey;
 }
 /*Final Footer segment 1*/
 .FinalFooter1{
-  padding-top: 30px;
+  padding-top: 10px;
   font-family: sans-serif;
-  height: 100px;
+  height: 60px;
   font-size: 35px;
   color: white;
   text-indent: inherit;
@@ -113,16 +116,20 @@ h1{
 }
 /*Final Footer segment 2*/
 .FinalFooter2{
-  height: 450px;
+  height: auto;
   background-color: #37373a;
   color: #5e6061;
 }
 /*Final Footer segment 3*/
 .FinalFooter3{
   font-family: sans-serif;
-  height: 120px;
   background-color: #17171a;
   color: #5e6061;
+}
+/*Final footer padding*/
+.FooterSpace p{
+  padding-top: 10px;
+  text-align: center;
 }
 /*Float Right*/
 .FloatRight{
@@ -136,6 +143,7 @@ h1{
   text-decoration: none;
   color: #5e6061;
 }
+/*Align centre for li tags*/
 .AlignCentre li{
   display: block;
   text-align: left;
@@ -144,6 +152,7 @@ h1{
   text-decoration: none;
   color: #5e6061;
 }
+/*Align centre for h2 tags*/
 .AlignCentre h2{
   text-align: center;
 }

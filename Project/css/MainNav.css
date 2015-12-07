@@ -1,49 +1,46 @@
-.MainNav body {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 20px 50px 150px;
-  font-size: 13px;
-  text-align: center;
-  background: #E3CAA1;
-}
-
+/*Color for links*/
 div.MainNav li a{
   color: inherit;
 }
-
+/*Allignment for unordered list*/
 .MainNav ul {
-  text-align: left;
   display: inline;
-  margin: 0;
-  padding: 15px 4px 17px 0px;
+  margin-left: 50px;
+
 }
+/*Allignment for li tag*/
 .MainNav ul li {
   font: bold 12px/18px sans-serif;
   display: inline-block;
-  margin-right: -4px;
   position: relative;
   padding: 15px 20px;
   background: #fff;
 }
+/*Allignment for li with hover tag*/
 .MainNav ul li:hover {
   background: #555;
   color: #fff;
 }
+/*Allignment for sub-menu*/
 .MainNav ul li ul {
-  padding: 0;
   position: absolute;
   top: 48px;
   left: 0;
   width: 250px;
   visibility: hidden;
 }
+/*Allignment for sub-menu li tag*/
 .MainNav ul li ul li {
-
   background: #555;
   display: block;
   color: #fff;
   text-shadow: 0 -1px 0 #000;
 }
-.MainNav ul li ul li:hover { background: #666; }
+/*Color for sub-menu list with hover tag*/
+.MainNav ul li ul li:hover {
+  background: #666;
+}
+/*Setting visibility of submenu on hover*/
 .MainNav ul li:hover ul {
   visibility: visible;
 }
