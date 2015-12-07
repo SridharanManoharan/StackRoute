@@ -6,6 +6,9 @@
 .bottomPad30{
   padding-bottom: 30px;
 }
+#leftpad20{
+  padding-left: 20px;
+}
 /*Division alignment of Main Navigation*/
 .DivNav{
   border: 2px solid #73AD21;
@@ -28,24 +31,20 @@
 }
 /*Main searchbar Alignment*/
 #SearchAlign{
-  margin-left: 90px;
-  margin-top: 26px;
-  margin-right: 0px;
+  margin: auto;
 }
 /*Login Icon Alignment*/
 #LoginIcon{
-  margin-left: 180px;
-  margin-top: 26px;
+  margin: auto;
+
 }
 /*Login Icon Alignment*/
 #RegisterIcon{
-  margin-left: 180px;
-  margin-top: 26px;
+margin: auto;
 }
 /*Login Icon Alignment*/
 #CartIcon{
-  margin-left: 180px;
-  margin-top: 26px;
+  margin: auto;
 }
 /*Three Coloumn grid*/
 
