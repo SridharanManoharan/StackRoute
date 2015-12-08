@@ -17,49 +17,49 @@
 	background-position: 0 -40px;
 }
 .social-icons li.facebook a {
-	background: url(/icons/facebook.png) no-repeat 0 0;
+	background: url(../icons/facebook.png) no-repeat 0 0;
 }
 .social-icons li.facebook a:hover {
 	background-color: #3b5998;
 }
 .social-icons li.googleplus a {
-	background: url(/icons/googleplus.png) no-repeat 0 0;
+	background: url(../icons/googleplus.png) no-repeat 0 0;
 }
 .social-icons li.googleplus a:hover {
 	background-color: #d94a39;
 }
 .social-icons li.html5 a {
-	background: url(/icons/html5.png) no-repeat 0 0;
+	background: url(../icons/html5.png) no-repeat 0 0;
 }
 .social-icons li.html5 a:hover {
 	background-color: #f3642c;
 }
 .social-icons li.linkedin a {
-	background: url(/icons/linkedin.png) no-repeat 0 0;
+	background: url(../icons/linkedin.png) no-repeat 0 0;
 }
 .social-icons li.linkedin a:hover {
 	background-color: #71b2d0;
 }
 .social-icons li.pinterest a {
-	background: url(/icons/pinterest.png) no-repeat 0 0;
+	background: url(../icons/pinterest.png) no-repeat 0 0;
 }
 .social-icons li.pinterest a:hover {
 	background-color: #cb2027;
 }
 .social-icons li.skype a {
-	background: url(/icons/skype.png) no-repeat 0 0;
+	background: url(../icons/skype.png) no-repeat 0 0;
 }
 .social-icons li.skype a:hover {
 	background-color: #18b7f1;
 }
 .social-icons li.twitter a {
-	background: url(/icons/twitter.png) no-repeat 0 0;
+	background: url(../icons/twitter.png) no-repeat 0 0;
 }
 .social-icons li.twitter a:hover {
 	background-color: #48c4d2;
 }
 .social-icons li.youtube a {
-	background: url(/icons/youtube.png) no-repeat 0 0;
+	background: url(../icons/youtube.png) no-repeat 0 0;
 }
 .social-icons li.youtube a:hover {
 	background-color: #f45750;
