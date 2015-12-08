@@ -1,30 +1,9 @@
-
-    a {
-        color: #ccc;
-    }
-
-    /*-------------------------------------*/
-
-    .cf:before, .cf:after{
-      content:"";
-      display:table;
-    }
-
-    .cf:after{
-      clear:both;
-    }
-
-    .cf{
-      zoom:1;
-    }
-
-    /*-------------------------------------*/
-
+    /*Total width and padding*/
     .form-wrapper {
         width: 450px;
         padding: 15px;
     }
-
+    /*Allignment for input box*/
     .form-wrapper input {
         width: 330px;
         height: 20px;
@@ -35,34 +14,26 @@
         background: #eee;
 
     }
-
-
+    /*Browser compatibility*/
     .form-wrapper input::-webkit-input-placeholder {
        color: #999;
        font-weight: normal;
        font-style: italic;
     }
-
     .form-wrapper input:-moz-placeholder {
         color: #999;
         font-weight: normal;
         font-style: italic;
     }
-
     .form-wrapper input:-ms-input-placeholder {
         color: #999;
         font-weight: normal;
         font-style: italic;
     }
-
+    /*Allignment and color for button*/
     .form-wrapper button {
-		overflow: visible;
-        position: relative;
-        float: right;
         border: 0;
         padding: 0;
-        cursor: pointer;
-        height: 40px;
         width: 110px;
         font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
         color: #fff;
@@ -70,27 +41,27 @@
         background: #d83c3c;
 
     }
-
+    /*Backgroud color for button on hover*/
     .form-wrapper button:hover{
         background: #e54040;
     }
-
+    /*Color for button on active or focus*/
     .form-wrapper button:active,
     .form-wrapper button:focus{
         background: #c42f2f;
     }
-
+    /*Button Allignment and color*/
     .form-wrapper button:before {
         content: '';
         position: absolute;
         border-style: solid solid solid none;
         border-color: transparent #d83c3c transparent;
     }
-
+    /*Button color on hover*/
     .form-wrapper button:hover:before{
         border-right-color: #e54040;
     }
-
+    /*Button color on focus*/
     .form-wrapper button:focus:before{
         border-right-color: #c42f2f;
     }

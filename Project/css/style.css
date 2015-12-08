@@ -104,6 +104,7 @@ margin: auto;
 }
 /*Final Footer segment 1*/
 .FinalFooter1{
+  padding-right: 25px;
   padding-top: 10px;
   font-family: sans-serif;
   height: 60px;
@@ -112,6 +113,9 @@ margin: auto;
   text-indent: inherit;
   text-align: center;
   background-color: #183740;
+}
+.FinalFooter1 a{
+  color: #ccc;
 }
 /*Final Footer segment 2*/
 .FinalFooter2{
