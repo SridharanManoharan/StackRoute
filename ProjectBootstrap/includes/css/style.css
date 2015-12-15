@@ -1,0 +1,384 @@
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+.toppad{
+  padding-top: 70px;
+}
+.bottompad{
+  padding-bottom: 70px;
+}
+#footer1 {
+  height: auto;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  background-color: #183740;
+}
+#footer1 a{
+  color: white;
+}
+
+#footer2 {
+  height: auto;
+  background-color: #17171a;
+  color: #5e6061;
+  text-align: center;
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
+img.resizeimg {
+  max-width: 100%;
+  max-height: 100%;
+}
+ul.unstyled {
+  list-style: none;
+	padding: 0;
+}
+
+.AlignCentre li{
+  display: block;
+  text-decoration: none;
+}
+#searchId{
+  width: 140px;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.navbar-brand img{
+  max-height: 100%;
+  max-width: 100%;
+  padding-left: 15px;
+}
+
+.side-btn{
+  padding-top: 8px;
+  padding-right: 8px;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel {
+   	margin-top: 60px;
+   }
+
+   .carousel-caption {
+   	font-size: 24px;
+   }
+
+   .carousel-caption h4 {
+   	font-size: 32px;
+   }
+
+   #myCarousel .item { height: 400px; }
+
+   #slide1 {
+   	background: url('../../images/Medium1.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+   	background: url('../../images/Medium2.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+   	background: url('../../images/Medium3.jpg') top center no-repeat;
+   }
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   .portfolio-item {
+       margin-bottom: 25px;
+       padding-bottom: 30px;
+   }
+
+   .well {
+   	margin: 20px 0;
+   }
+
+   .tabbable img.thumbnail {
+   	margin: 0 20px 10px 0;
+   }
+
+   .thumbnails {
+   	margin: 20px 0;
+   }
+
+   .thumbnail {
+   	position: relative;
+   }
+
+   .thumbnail .price {
+   	font-size: 22px;
+   	position: absolute;
+   	top: -10px;
+   	right: -8px;
+   	padding: 6px;
+   }
+
+   .thumbnail .price sup {
+   	font-weight: normal;
+   	font-size: 12px;
+   }
+
+   .thumbnail span.glyphicon {
+   	margin-right: 5px;
+   }
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+
+	.thumbnail .price {
+		font-size: 14px;
+	}
+
+	.thumbnail .price sup {
+		font-size: 10px;
+	}
+
+  .navbar-brand img{
+    padding: 0px;
+  }
+
+  #myCarousel .item { height: 280px; }
+
+  #slide1 {
+    background: url('../../images/Small1.jpg') top center no-repeat;
+    background-size: cover;
+  }
+
+  #slide2 {
+    background: url('../../images/Small2.jpg') top left no-repeat;
+    background-size: cover;
+  }
+
+  #slide3 {
+    background: url('../../images/Small3.jpg') top center no-repeat;
+    background-size: cover;
+
+  }
+
+  .carousel-caption {
+    font-size: 10px;
+  }
+
+  .carousel-caption h4 {
+    font-size: 16px;
+  }
+
+  }
+
+
+}
+
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+	#myCarousel .item { height: 310px; }
+
+	#slide1 {
+		background: url('../../images/Small1.jpg') top right no-repeat;
+	}
+
+	#slide2 {
+		background: url('../../images/Small2.jpg') top left no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../images/Small3.jpg') top right no-repeat;
+	}
+
+	.carousel-caption {
+		font-size: 16px;
+	}
+
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+
+
+	#myCarousel .item { height: 500px; }
+
+	#slide1 {
+		background: url('../../images/Large1.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('../../images/Large2.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../images/Large3.jpg') top center no-repeat;
+	}
+
+}
+
+
+
+/* --------------------------------------
+   Sidebar
+   -------------------------------------- */
+   #wrapper {
+       padding-left: 0;
+       padding-top: 50px;
+       -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+       transition: all 0.5s ease;
+   }
+
+   #wrapper.toggled {
+       padding-left: 220px;
+   }
+
+   #sidebar-wrapper {
+       z-index: 1000;
+       position: fixed;
+       left: 220px;
+       width: 0;
+       height: 100%;
+       margin-left: -220px;
+       overflow-y: auto;
+       background: #000;
+       -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+       transition: all 0.5s ease;
+   }
+
+   #wrapper.toggled #sidebar-wrapper {
+       width: 220px;
+   }
+
+   #wrapper.toggled #page-content-wrapper {
+       position: relative;
+       margin-right: 0;
+     }
+
+   #page-content-wrapper {
+       width: 100%;
+       position: absolute;
+       padding: 15px;
+   }
+
+   /* Sidebar Styles */
+
+#sidebar-wrapper ul{
+  padding-top: 50px;
+}
+   .sidebar-nav {
+       position: -ms-align-self: ;
+       align-self: auto;
+       top: 0;
+       width: 220px;
+       margin: 0;
+       padding: 0;
+       list-style: none;
+   }
+
+   .sidebar-nav li {
+       text-indent: 20px;
+       line-height: 40px;
+   }
+
+   .sidebar-nav li a {
+       display: block;
+       text-decoration: none;
+       color: #999999;
+   }
+
+   .sidebar-nav li a:hover {
+       text-decoration: none;
+       color: #fff;
+       background: rgba(255,255,255,0.2);
+   }
+
+   .sidebar-nav li a:active,
+   .sidebar-nav li a:focus {
+       text-decoration: none;
+   }
+
+   .sidebar-nav > .sidebar-brand {
+       height: 65px;
+       font-size: 18px;
+       line-height: 60px;
+   }
+
+   .sidebar-nav > .sidebar-brand a {
+       color: #999999;
+   }
+
+   .sidebar-nav > .sidebar-brand a:hover {
+       color: #fff;
+       background: none;
+   }
+
+/* --------------------------------------
+   Social Icons
+   -------------------------------------- */
+      /*Allignment for li tags*/
+      .social-icons li{
+      	float: left;
+      	margin-bottom: 2px;
+      	padding: 0px;
+      }
+      /*Allignment for anchor tag in list*/
+      .social-icons li a {
+      	float: left;
+      	width: 40px;
+      	height: 40px;
+      	text-indent: -9999px;
+      	background-color:transparent;
+      }
+      /*Selecting image */
+      .social-icons li a:hover {
+      	background-position: 0 -40px;
+      }
+      .social-icons li.facebook a {
+      	background: url(/icons/facebook.png) no-repeat 0 0;
+      }
+      .social-icons li.facebook a:hover {
+      	background-color: #3b5998;
+      }
+      .social-icons li.googleplus a {
+      	background: url(/icons/googleplus.png) no-repeat 0 0;
+      }
+      .social-icons li.googleplus a:hover {
+      	background-color: #d94a39;
+      }
+      .social-icons li.twitter a {
+      	background: url(/icons/twitter.png) no-repeat 0 0;
+      }
+      .social-icons li.twitter a:hover {
+      	background-color: #48c4d2;
+      }

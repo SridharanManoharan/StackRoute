@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<!-- Title-->
+    <title>Mad Men</title>
+		<meta name="description" content="Mad Men official site">
+
+    <!-- Link for Title bar Icon -->
+    <link rel="shortcut icon" href="images/Fav_Ico.png">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!--Custom CSS-->
+    <link href="includes/css/style.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!--Sidebar wrapper-->
+    <div id="wrapper">
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+        <!--Search bar in navigation-->
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group pull-left">
+            <input type="text" class="form-control" placeholder="Search" id="searchId">
+          </div>
+          <button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-search"></span></button>
+        </form>
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="#">
+                    <h1>Services</h1>
+                </a>
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="#feedbackModal" role="button" data-toggle="modal">Feedback</a></li>
+            <li><a href="#contactModal" role="button" data-toggle="modal">Contact</a></li>
+        </ul>
+      </div><!-- End sidebar-wrapper -->
+    </div><!-- End wrapper -->
+
+
+    <!--Main Container-->
+    <div class="container-fluid" id="main page-content-wrapper">
+      <!--Navigation bar-->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <!--Container-->
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <div class="pull-left side-btn">
+              <a href="#" class="btn btn-default" id="menu-toggle"><span class="glyphicon glyphicon-th"></span></a>
+            </div>
+            <!-- Button for collapse-->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse" >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!--Main Logo Image-->
+            <a class="navbar-brand" href="index.html"><img src="images/MainLogo.png" alt="Your Logo"></a>
+          </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden">
+                <a href="#"></a>
+            </li>
+            <li><a href="#">Clothings <span class="sr-only">(current)</span></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accessories<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Bags and Luggage</a></li>
+                <li><a href="#">belts</a></li>
+                <li><a href="#">Footware</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Fitness</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Watches</a></li>
+              </ul>
+            </li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Offers</a></li>
+          </ul>
+
+          <!--Account and Cart Icons-->
+          <div class="pull-right side-btn">
+            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-user"></span></button>
+            <a href="" data-placement="bottom" data-original-title="2 items" rel="tooltip"><button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-shopping-cart"></span></button></a>
+          </div>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+
+      <div class="container">
+        <!-- myCarousel-->
+        <div class="carousel slide" id="myCarousel">
+  				<!-- Indicators -->
+  				<ol class="carousel-indicators">
+  					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+  					<li data-slide-to="1" data-target="#myCarousel"></li>
+  					<li data-slide-to="2" data-target="#myCarousel"></li>
+  				</ol>
+  				<!-- Wrapper for slides -->
+  				<div class="carousel-inner">
+  					<div class="item active" id="slide1">
+  						<div class="carousel-caption">
+  							<h4>Autumn Collection</h4>
+  							<p>Learn how to build your first responsive website with the brand new Twitter Bootstrap 3!</p>
+  						</div><!-- end carousel-caption-->
+  					</div><!-- end item -->
+
+  					<div class="item" id="slide2">
+  						<div class="carousel-caption">
+  							<h4>Designer Collection</h4>
+  							<p>PSD to HTML5 &amp; CSS3 is a popular Udemy course that has helped thousands of aspiring web designers launch their web design career.</p>
+  						</div><!-- end carousel-caption-->
+  					</div><!-- end item -->
+
+  					<div class="item" id="slide3">
+  						<div class="carousel-caption">
+  							<h4>Casuals</h4>
+  							<p>Learn how to buy a perfect domain name and hosting package, and get your website live on the web with ease.</p>
+  						</div><!-- end carousel-caption-->
+  					</div><!-- end item -->
+  				</div><!-- carousel-inner -->
+  				<!-- Controls -->
+  				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+  				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+			</div><!-- end myCarousel -->
+
+    <div class="well">
+			<div class="page-header">
+				<h1>Today's Offer<small>  go mad on MAD MEN offers</small></h1>
+			</div><!-- end page-header -->
+      <!-- Page Features -->
+      <div class="row text-center toppad">
+          <div class="col-md-3 col-sm-6 hero-feature">
+              <div class="thumbnail">
+                <img src="images/Gallery4.jpg" alt="Premium Suit">
+                <div class="label label-info price"><span class="glyphicon glyphicon-tag"></span>15% off</div>
+
+                  <div class="caption">
+                      <h3>Premium Suit</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <p>
+                          <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-6 hero-feature">
+              <div class="thumbnail">
+                  <img src="images/Gallery6.jpg" alt="Causual suit">
+                  <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span>5% off</div>
+                  <div class="caption">
+                      <h3>Casual Suit</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <p>
+                          <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-6 hero-feature">
+              <div class="thumbnail">
+                  <img src="images/Gallery7.jpg" alt="Formal suit">
+                  <div class="label label-warning price"><span class="glyphicon glyphicon-tag"></span>10% off</div>
+                  <div class="caption">
+                      <h3>Formal Suit</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <p>
+                          <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-6 hero-feature">
+              <div class="thumbnail">
+                  <img src="images/ThreeCol3.jpg" alt="Designer suit">
+                  <div class="label label-primary price"><span class="glyphicon glyphicon-tag"></span>10% off</div>
+                  <div class="caption">
+                      <h3>Designer Suit</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <p>
+                          <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div><!-- end well -->
+
+  <!-- /.row -->
+  <hr>
+
+    <!--two Col element-->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <img src="images/GG1.jpg" class="img-responsive center-block">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <article>
+          <h2>Ravishing Looks</h2>
+
+            <small>Rakishly elegant, supremely comfortable and extremely easy to dress up and down,
+            this simple piece of knitwear is arguably the hardest worker in your wardrobe.
+            With variations on the theme provided by Margaret Howell, Kris Van Assche, Kenzo
+            and more this autumn/winter, it’s hard to imagine we only re-discovered the roll neck
+            a few seasons back. Choose from thin or thick gauges, plain colour or vividly patterned.
+            Use yours in place of a shirt under a suit for a debonair take on tailoring (thin gauge recommended),
+            or team with a simple pair of well-cut wool trousers and trainers for an off-duty ensemble that still looks luxe
+            </small>
+        </article>
+      </div>
+    </div>
+
+    <!-- /.row -->
+    <hr>
+
+      <div class="row bottompad">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 resizeimg hidden-lg hidden-md">
+          <img src="images/GG2.jpg" class="img-responsive center-block">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <article>
+            <h2>Elegant Style</h2>
+
+              <small>Rakishly elegant, supremely comfortable and extremely easy to dress up and down,
+              this simple piece of knitwear is arguably the hardest worker in your wardrobe.
+              With variations on the theme provided by Margaret Howell, Kris Van Assche, Kenzo
+              and more this autumn/winter, it’s hard to imagine we only re-discovered the roll neck
+              a few seasons back. Choose from thin or thick gauges, plain colour or vividly patterned.
+              Use yours in place of a shirt under a suit for a debonair take on tailoring (thin gauge recommended),
+              or team with a simple pair of well-cut wool trousers and trainers for an off-duty ensemble that still looks luxe
+            </small>
+          </article>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 resizeimg visible-lg visible-md">
+          <img src="images/GG2.jpg" class="img-responsive center-block">
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="feedbackModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+
+            <h4 class="modal-title">Feedback</h4>
+          </div><!-- end modal-header -->
+          <div class="modal-body">
+
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label class="col-lg-2 control-label" for="inputName">Name</label>
+                <div class="col-lg-10">
+                  <input class="form-control" id="inputName" placeholder="Name" type="text">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                <div class="col-lg-10">
+                  <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-lg-2 control-label" for="inputMessage">Message</label>
+                <div class="col-lg-10">
+                  <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+                </div>
+              </div>
+            </form>
+          </div><!-- end modal-body -->
+
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Send</button>
+          </div><!-- end modal-footer -->
+        </div><!-- end modal-content -->
+      </div><!-- end modal-dialog -->
+    </div><!-- end myModal -->
+
+    <div class="modal fade" id="contactModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Contact</h4>
+          </div><!-- end modal-header -->
+        <div class="modal-body">
+          <div class="row" id="moreInfo">
+            <div class="col-sm-12">
+              <div class="tabbable">
+                <ul class="nav nav-tabs">
+                  <li class="active"><a href="#tab1" data-toggle="tab">Location</a></li>
+                  <li><a href="#tab2" data-toggle="tab">Get in touch</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane active" id="tab1">
+                    <div class="col-sm-12">
+                      <h3>Branch</h3>
+                      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-info">
+                          <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <h4><span class="glyphicon glyphicon-map-marker"></span> Headquaters <small>More like our favourite surf spot</small></h4>
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                              <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-info">
+                          <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h4><span class="glyphicon glyphicon-map-marker"></span> California <small></small></h4>
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                              <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-info">
+                          <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <h4><span class="glyphicon glyphicon-map-marker"></span> Boston <small></small></h4>
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                              <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- end col-sm-12 -->
+                  </div><!-- end tab-pane -->
+
+                  <div class="tab-pane" id="tab2">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="well well-sm">
+                                <form class="form-horizontal" method="post">
+                                    <fieldset>
+                                        <legend class="text-center header">Contact us</legend>
+
+                                        <div class="form-group">
+                                            <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-user"></i></span>
+                                            <div class="col-md-8">
+                                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-user"></i></span>
+                                            <div class="col-md-8">
+                                                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-envelope"></i></span>
+                                            <div class="col-md-8">
+                                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-phone-alt"></i></span>
+                                            <div class="col-md-8">
+                                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-pencil"></i></span>
+                                            <div class="col-md-8">
+                                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="col-md-12 text-center">
+                                                <button type="submit" class="btn btn-danger btn-lg">Clear</button>
+                                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                  </div><!-- end tab-pane -->
+                </div><!-- end tab-content -->
+              </div><!-- end tabbable -->
+            </div><!-- end col-sm-6 -->
+
+          </div><!-- end modal-body -->
+
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
+          </div><!-- end modal-footer -->
+        </div><!-- end modal-content -->
+      </div><!-- end modal-dialog -->
+    </div><!-- end myModal -->
+  </div><!-- /.container-fluid -->
+
+  <div id="footer1">
+    <div class="container">
+      <div class="row" id="bigCallout">
+        <div class="col-12 visible-md  visible-lg">
+          <h1><small>Need help with your Account? </small><a href="#">Click Here</a></h1>
+        </div>
+        <div class="well visible-sm visible-xs">
+          <a href="#" class="btn btn-large btn-block btn-danger"><span class="glyphicon glyphicon-phone"></span>Register Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row center-block">
+        <div class="col-sm-4">
+          <p>Copyright © 2015 All Rights Reserved by Man Men Inc. Terms of Use / Privacy Policy.</p>
+          <p><h6><img src="images/MailIcon.png"/> info@madmen.com · <img src="images/PhoneIcon.png"/> +91-11-6541-6369 · <img src="images/SkypeIcon.png"/> MadMenOnSkype</h6></p>
+        </div>
+        <div class="col-sm-2">
+          <img src="images/MainLogo.png" alt="Mad Men" class="img-responsive">
+          <p>
+          <p>We believe in Simple, Creative & Flexible Design Standards.</p>
+          <address>
+          Headquarters:
+          795 Folsom Ave, Suite 600 San Francisco,
+          CA 94107 Phone: (91) 8547 632521
+          Fax: (91) 11 4752 1433 Email: info@madmen.com
+          </address>
+        </div><!-- end col-sm-4 -->
+        <div class="col-sm-2">
+          <h4>Navigation</h4>
+          <ul class="unstyled">
+            <li><a href="#">Clothings</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Offers</a></li>
+          </ul>
+        </div><!-- end col-sm-2 -->
+        <div class="col-sm-2">
+          <h4>Online Partners</h4>
+            <img src="images/onlinePartner.png" alt="Online Partners" class="img-responsive">
+        </div><!-- end col-sm-4 -->
+        <div class="col-sm-2">
+          <p>
+            <h4>Follow Us</h4>
+          </p>
+          <!-- Social Icons -->
+          <div class="social-icons">
+            <ul class="unstyled">
+              <li class="twitter">
+                <a href="#">Twitter</a>
+              </li>
+              <li class="facebook">
+                <a href="#">Facebook</a>
+              </li>
+              <li class="googleplus">
+                <a href="#">Google +r</a>
+              </li>
+            </ul>
+          </div>
+        </div><!-- end col-sm-2 -->
+      </div><!-- end row -->
+    </div><!-- end container -->
+  </footer>
+
+
+		<!-- All Javascript at the bottom of the page for faster page loading -->
+
+		<!-- First try for the online version of jQuery-->
+		<script src="http://code.jquery.com/jquery.js"></script>
+
+		<!-- If no online access, fallback to our hardcoded version of jQuery -->
+		<script>window.jQuery || document.write('<script src="includes/js/jquery-2.1.4.js"><\/script>')</script>
+
+		<!-- Bootstrap JS -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Custom JS -->
+		<script src="includes/js/script.js"></script>
+  </body>
+</html>
