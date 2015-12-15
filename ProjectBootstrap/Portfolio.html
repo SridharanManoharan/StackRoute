@@ -106,7 +106,7 @@
           <!--Account and Cart Icons-->
           <div class="pull-right side-btn">
             <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-user"></span></button>
-            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-shopping-cart"></span><span class="batch">2</span></button>
+            <a href="" data-placement="bottom" data-original-title="2 items" rel="tooltip"><button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-shopping-cart"></span></button></a>
           </div>
         </div><!-- /.navbar-collapse -->
       </nav>
@@ -286,102 +286,128 @@
         <div class="modal fade" id="contactModal">
           <div class="modal-dialog">
             <div class="modal-content">
-              <div class="modal-header">
-                <button class="close" data-dismiss="modal">&times;</button>
-
-                <h4 class="modal-title">Contact</h4>
-              </div><!-- end modal-header -->
-              <div class="modal-body">
-
-                <div class="row" id="moreInfo">
-                  <div class="col-sm-12">
-                    <div class="tabbable">
-                      <ul class="nav nav-tabs">
-                        <li class="active"><a href="#tab1" data-toggle="tab">Location</a></li>
-                        <li><a href="#tab2" data-toggle="tab">Get in touch</a></li>
-                      </ul>
-                      <div class="tab-content">
-                        <div class="tab-pane active" id="tab1">
-                          <div class="col-sm-12">
-                            <h3>Branch</h3>
-                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                              <div class="panel panel-info">
-                                <div class="panel-heading" role="tab" id="headingOne">
-                                  <h4 class="panel-title">
-                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                      <h4><span class="glyphicon glyphicon-map-marker"></span> Headquaters <small>More like our favourite surf spot</small></h4>
-                                    </a>
-                                  </h4>
-                                </div>
-                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                  <div class="panel-body">
-                                    <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
-                                  </div>
-                                </div>
+                <div class="modal-header">
+                  <button class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Contact</h4>
+                </div><!-- end modal-header -->
+            <div class="modal-body">
+              <div class="row" id="moreInfo">
+                <div class="col-sm-12">
+                  <div class="tabbable">
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a href="#tab1" data-toggle="tab">Location</a></li>
+                      <li><a href="#tab2" data-toggle="tab">Get in touch</a></li>
+                    </ul>
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="tab1">
+                        <div class="col-sm-12">
+                          <h3>Branch</h3>
+                          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-info">
+                              <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h4><span class="glyphicon glyphicon-map-marker"></span> Headquaters <small>More like our favourite surf spot</small></h4>
+                                  </a>
+                                </h4>
                               </div>
-                              <div class="panel panel-info">
-                                <div class="panel-heading" role="tab" id="headingTwo">
-                                  <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                      <h4><span class="glyphicon glyphicon-map-marker"></span> California <small></small></h4>
-                                    </a>
-                                  </h4>
-                                </div>
-                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                  <div class="panel-body">
-                                    <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="panel panel-info">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                  <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                      <h4><span class="glyphicon glyphicon-map-marker"></span> Boston <small></small></h4>
-                                    </a>
-                                  </h4>
-                                </div>
-                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                  <div class="panel-body">
-                                    <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
-                                  </div>
+                              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                  <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
                                 </div>
                               </div>
                             </div>
-                          </div><!-- end col-sm-12 -->
-                        </div><!-- end tab-pane -->
+                            <div class="panel panel-info">
+                              <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <h4><span class="glyphicon glyphicon-map-marker"></span> California <small></small></h4>
+                                  </a>
+                                </h4>
+                              </div>
+                              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                  <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="panel panel-info">
+                              <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <h4><span class="glyphicon glyphicon-map-marker"></span> Boston <small></small></h4>
+                                  </a>
+                                </h4>
+                              </div>
+                              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                  <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div><!-- end col-sm-12 -->
+                      </div><!-- end tab-pane -->
 
-                        <div class="tab-pane" id="tab2">
-                          <h4>A Left Floated Picture <small>Using Placehold.it</small></h4>
+                      <div class="tab-pane" id="tab2">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="well well-sm">
+                                    <form class="form-horizontal" method="post">
+                                        <fieldset>
+                                            <legend class="text-center header">Contact us</legend>
 
-                          <img src="http://placehold.it/140" class="thumbnail pull-left" alt="Placeholder image">
+                                            <div class="form-group">
+                                                <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-user"></i></span>
+                                                <div class="col-md-8">
+                                                    <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-user"></i></span>
+                                                <div class="col-md-8">
+                                                    <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                                                </div>
+                                            </div>
 
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                            <div class="form-group">
+                                                <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-envelope"></i></span>
+                                                <div class="col-md-8">
+                                                    <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                                                </div>
+                                            </div>
 
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                            <div class="form-group">
+                                                <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-phone-alt"></i></span>
+                                                <div class="col-md-8">
+                                                    <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                                                </div>
+                                            </div>
 
-                          <hr>
-                          <div class="list-group">
-                            <a href="#" class="list-group-item">
-                              <h4><span class="glyphicon glyphicon-map-marker"></span> Our Location <small>More like our favourite surf spot</small></h4>
-                            </a>
-                            <a href="#" class="list-group-item">
-                              <h4 class="list-group-item-heading">Carrots</h4>
-                              <p class="list-group-item-text">The carrot is a root vegetable, usually orange in colour, though purple, red, white, and yellow varieties exist. It has a crisp texture when fresh.</p>
-                            </a>
-                            <a href="#" class="list-group-item">
-                              <h4 class="list-group-item-heading">Steel-cut oats</h4>
-                              <p class="list-group-item-text">Steel-cut oats are whole grain groats which have been cut into pieces. They are commonly used in Scotland and Ireland to make porridge.</p>
-                            </a>
-                          </div><!-- list-group -->
+                                            <div class="form-group">
+                                                <span class="col-md-1 col-md-offset-2 text-center"><i class="glyphicon glyphicon-pencil"></i></span>
+                                                <div class="col-md-8">
+                                                    <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                                                </div>
+                                            </div>
 
-                        </div><!-- end tab-pane -->
-                      </div><!-- end tab-content -->
-                    </div><!-- end tabbable -->
-                  </div><!-- end col-sm-6 -->
+                                            <div class="form-group">
+                                                <div class="col-md-12 text-center">
+                                                    <button type="submit" class="btn btn-danger btn-lg">Clear</button>
+                                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
 
+                      </div><!-- end tab-pane -->
+                    </div><!-- end tab-content -->
+                  </div><!-- end tabbable -->
+                </div><!-- end col-sm-6 -->
               </div><!-- end modal-body -->
-
               <div class="modal-footer">
                 <button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
               </div><!-- end modal-footer -->
